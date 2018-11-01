@@ -1,0 +1,242 @@
+body {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*The container*/
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    border-bottom: 1px solid #c2c2c2;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.5);
+    background: #f5f5f5;
+
+}
+
+/*The container's before and after pseudo-elements*/
+#container::before {
+    width: 3200px;
+    content:  "";
+    position: absolute;
+    top: 0;
+    bottom: -1px; /*compensates for the 1px border*/
+    left: 100%;
+    border-bottom: 1px solid #c2c2c2;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.5);
+    background: #f5f5f5;
+}
+
+#container::after {
+    content:  "";
+    position: absolute;
+    top: 0;
+    bottom: -1px; /*compensates for the 1px border*/
+    width: 3200px;
+    right: 100%;
+    border-bottom: 1px solid #c2c2c2;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.5);
+    background: #f5f5f5;
+}
+
+/*The inner-container*/
+#inner-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*The inner-container's clearfix*/
+#inner-container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/*The header and its media queries*/
+header {
+    padding: 0;
+    float: left;
+}
+
+@media (min-width: 300px) {
+    header {
+        width: 93.3333333333%;
+        margin: 0 3.3333333333%;
+    }
+}
+
+@media (min-width: 900px) {
+    header {
+        width: 95.5555555556%;
+        margin: 0 2.2222222222%;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        width: 25%;
+        margin: 0 1.6666666667%;
+    }
+}
+
+/*The nav and its media queries*/
+nav {
+    float: left;
+}
+
+@media (min-width: 300px) {
+    nav {
+        width: 93.3333333333%;
+        margin: 0 3.3333333333% 3.3333333333% 3.3333333333%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    nav {
+        width: 95.5555555556%;
+        margin: 0 2.2222222222% 2.2222222222% 2.2222222222%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        width: 43.3333333333%;
+        margin: 0 1.6666666667%;
+        padding-left: 25%;
+    }
+}
+
+/*The nav ul and its media queries*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 300px) {
+    nav ul {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    nav ul {
+        display: block;
+    }
+}
+
+/*The nav ul li and its media queries*/
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 600;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.selected {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+@media (min-width: 300px) {
+    nav li {
+        font-size: 0.75em;
+        line-height: 2;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media (min-width: 600px) {
+    nav li {
+        display: inline-block;
+        margin: 0 30px 0 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav li {
+        font-size: 0.875em;
+        line-height: 6;
+        display: inline-block;
+    }
+}
+
+/*The menu and its media queries*/
+#menu {
+    width: 17.1428571429%;
+    margin: 0;
+    padding: 1.7857142857% 0;
+    font: 600 .875em/1em Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background: #2196f3;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    #menu {
+        display: none;
+    }
+}
+
+/*The fonts and their media queries*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 300px) {
+    h1 {
+        font-size: 1.25em;
+        line-height: 2;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        /*line height same as above media query*/
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 1.75em;
+        line-height: 3;
+    }
+}
