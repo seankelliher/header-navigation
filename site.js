@@ -14,6 +14,7 @@ window.addEventListener("load", function () {
 mechanics = {
 
     highlight: function () {
+        "use strict";
 
         //Retrieve the nav.
         const priNav = document.querySelector("nav");
