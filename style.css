@@ -69,51 +69,37 @@ header {
 
 @media (min-width: 300px) {
     header {
-        width: 93.3333333333%;
-        margin: 0 3.3333333333%;
-    }
-}
-
-@media (min-width: 900px) {
-    header {
-        width: 95.5555555556%;
-        margin: 0 2.2222222222%;
+        width: 90%;
+        margin: 0 5%;
     }
 }
 
 @media (min-width: 1200px) {
     header {
         width: 25%;
-        margin: 0 1.6666666667%;
+        margin: 0 5%;
     }
 }
 
 /*The nav and its media queries*/
 nav {
+    padding: 0;
     float: left;
 }
 
 @media (min-width: 300px) {
     nav {
-        width: 93.3333333333%;
-        margin: 0 3.3333333333% 3.3333333333% 3.3333333333%;
-        padding: 0;
-    }
-}
-
-@media (min-width: 900px) {
-    nav {
-        width: 95.5555555556%;
-        margin: 0 2.2222222222% 2.2222222222% 2.2222222222%;
+        width: 90%;
+        margin: 0 5%;
         padding: 0;
     }
 }
 
 @media (min-width: 1200px) {
     nav {
-        width: 43.3333333333%;
-        margin: 0 1.6666666667%;
-        padding-left: 25%;
+        width: 35%;
+        margin: 0 5%;
+        /*padding-left: 25%;*/
     }
 }
 
