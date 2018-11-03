@@ -63,7 +63,6 @@ img {
 
 /*The header and its media queries*/
 header {
-    margin: 0 5%;
     padding: 0;
     float: left;
 }
@@ -71,6 +70,7 @@ header {
 @media (min-width: 300px) {
     header {
         width: 90%;
+        margin: 0 5%;
         background: pink;
     }
 }
@@ -78,13 +78,13 @@ header {
 @media (min-width: 1200px) {
     header {
         width: 25%;
+        margin: 0 0 0 5%;
         background: pink;
     }
 }
 
 /*The nav and its media queries*/
 nav {
-    margin: 0 5%;
     padding: 0;
     float: left;
 }
@@ -92,13 +92,63 @@ nav {
 @media (min-width: 300px) {
     nav {
         width: 90%;
+        margin: 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 600px) {
+    nav {
+        width: 70%;
+        margin: 0 25% 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 700px) {
+    nav {
+        width: 65%;
+        margin: 0 30% 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 800px) {
+    nav {
+        width: 60%;
+        margin: 0 35% 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 900px) {
+    nav {
+        width: 55%;
+        margin: 0 40% 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 1000px) {
+    nav {
+        width: 50%;
+        margin: 0 45% 0 5%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 1100px) {
+    nav {
+        width: 45%;
+        margin: 0 50% 0 5%;
         background: yellow;
     }
 }
 
 @media (min-width: 1200px) {
     nav {
-        width: 55%;
+        width: 65%;
+        margin: 0 5% 0 0;
         background: yellow;
     }
 }
