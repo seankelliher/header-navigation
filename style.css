@@ -118,7 +118,7 @@ nav ul {
 
 @media (min-width: 600px) {
     nav ul {
-        display: block;
+        /*display: block;*/
         display: flex;
         flex-direction: row;
     }
@@ -160,7 +160,7 @@ nav li a:hover {
     nav li {
         font-size: 0.75em;
         line-height: 2;
-        display: block;
+        /*display: block;*/
         margin: 0;
     }
 }
@@ -169,7 +169,7 @@ nav li a:hover {
     nav li {
         /*font size inherited*/
         line-height: 3;
-        display: inline-block;
+        /*display: inline-block;*/
         flex-grow: 1;
     }
 }
@@ -178,7 +178,7 @@ nav li a:hover {
     nav li {
         font-size: 0.875em;
         line-height: 6;
-        display: inline-block;
+        /*display: inline-block;*/
         flex-grow: 1;
     }
 }
