@@ -213,7 +213,7 @@ nav li a:hover {
 /*The menu and its media queries*/
 #menu {
     width: 16%;
-    margin: 0;
+    margin: 0 0 .625em 0;
     padding: 2% 0;
     font: 600 .875em/1em Arial, Helvetica, sans-serif;
     color: #FFF;
