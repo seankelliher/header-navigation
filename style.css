@@ -63,6 +63,7 @@ img {
 
 /*The header and its media queries*/
 header {
+    margin: 0 5%;
     padding: 0;
     float: left;
 }
@@ -70,20 +71,20 @@ header {
 @media (min-width: 300px) {
     header {
         width: 90%;
-        margin: 0 5%;
+        background: pink;
     }
 }
 
 @media (min-width: 1200px) {
     header {
         width: 25%;
-        margin: 0 5%;
         background: pink;
     }
 }
 
 /*The nav and its media queries*/
 nav {
+    margin: 0 5%;
     padding: 0;
     float: left;
 }
@@ -91,16 +92,13 @@ nav {
 @media (min-width: 300px) {
     nav {
         width: 90%;
-        margin: 0 5%;
-        padding: 0;
+        background: yellow;
     }
 }
 
 @media (min-width: 1200px) {
     nav {
         width: 55%;
-        margin: 0 5%;
-        /*padding-left: 25%;*/
         background: yellow;
     }
 }
@@ -161,8 +159,9 @@ nav li a:hover {
 
 @media (min-width: 600px) {
     nav li {
+        /*font size inherited*/
+        line-height: 3;
         display: inline-block;
-        /*margin: 0 30px 0 0;*/
         flex-grow: 1;
     }
 }
