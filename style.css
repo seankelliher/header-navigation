@@ -124,6 +124,14 @@ nav ul {
     }
 }
 
+@media (min-width: 1200px) {
+    nav ul {
+        justify-content: flex-end;
+    }
+}
+
+        
+
 /*The nav ul li and its media queries*/
 nav li {
     font-family: Arial, Helvetica, sans-serif;
