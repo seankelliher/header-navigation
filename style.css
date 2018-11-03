@@ -36,7 +36,7 @@ img {
 }
 
 #container::after {
-    content:  "";
+    content: "";
     position: absolute;
     top: 0;
     bottom: -1px; /*compensates for the 1px border*/
@@ -71,7 +71,6 @@ header {
     header {
         width: 90%;
         margin: 0 5%;
-        background: pink;
     }
 }
 
@@ -79,7 +78,6 @@ header {
     header {
         width: 25%;
         margin: 0 0 0 5%;
-        background: pink;
     }
 }
 
@@ -93,7 +91,6 @@ nav {
     nav {
         width: 90%;
         margin: 0 5%;
-        background: yellow;
     }
 }
 
@@ -101,7 +98,6 @@ nav {
     nav {
         width: 70%;
         margin: 0 25% 0 5%;
-        background: yellow;
     }
 }
 
@@ -109,7 +105,6 @@ nav {
     nav {
         width: 65%;
         margin: 0 30% 0 5%;
-        background: yellow;
     }
 }
 
@@ -117,7 +112,6 @@ nav {
     nav {
         width: 60%;
         margin: 0 35% 0 5%;
-        background: yellow;
     }
 }
 
@@ -125,7 +119,6 @@ nav {
     nav {
         width: 55%;
         margin: 0 40% 0 5%;
-        background: yellow;
     }
 }
 
@@ -133,7 +126,6 @@ nav {
     nav {
         width: 50%;
         margin: 0 45% 0 5%;
-        background: yellow;
     }
 }
 
@@ -141,7 +133,6 @@ nav {
     nav {
         width: 45%;
         margin: 0 50% 0 5%;
-        background: yellow;
     }
 }
 
@@ -149,7 +140,6 @@ nav {
     nav {
         width: 65%;
         margin: 0 5% 0 0;
-        background: yellow;
     }
 }
 
