@@ -210,7 +210,7 @@ nav li a:hover {
     padding: 2% 0;
     font: 600 .875em/1em 'Merriweather', serif;
     color: #fff;
-    background: #007ac1; /*original #2196f3;*/
+    background: #007ac1;
     text-align: center;
     cursor: pointer;
 }
