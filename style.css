@@ -208,9 +208,9 @@ nav li a:hover {
     width: 16%;
     margin: 0 0 .625em 0;
     padding: 2% 0;
-    font: 600 .875em/1em 'Francois One', sans-serif;
-    color: #FFF;
-    background: #2196f3;
+    font: 600 .875em/1em 'Merriweather', serif;
+    color: #fff;
+    background: #007ac1; /*original #2196f3;*/
     text-align: center;
     cursor: pointer;
 }
