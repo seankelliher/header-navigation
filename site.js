@@ -50,16 +50,6 @@ mechanics = {
                 document.getElementById("menu").textContent = "Menu";
             }
         });
-    },
-
-    //If browser is resized, reload page.
-    //Makes horizontal nav items re-appear, if window resized from < to > 600px.
-    resize: function () {
-        "use strict";
-
-        window.onresize = function () {
-            location.reload();
-        };
     }
 
 }; //close mechanics
