@@ -45,13 +45,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-/*The inner-container's clearfix*/
-#inner-container::after {
-    clear: both;
-    content: "";
-    display: table;
+    display: flow-root;
 }
 
 /*The header and its media queries*/
