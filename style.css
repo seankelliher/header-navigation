@@ -153,8 +153,8 @@ nav ul {
 /*The nav ul li and its media queries*/
 nav li {
     font-family: 'Merriweather', serif;
+    font-weight: 700;
     color: #000;
-    font-weight: 600;
     padding: 0;
     text-decoration: none;
 }
@@ -203,7 +203,7 @@ nav li a:hover {
     width: 16%;
     margin: 0 0 .625em 0;
     padding: 2% 0;
-    font: 600 .875em/1em 'Merriweather', serif;
+    font: 700 .875em/1em 'Merriweather', serif;
     color: #fff;
     background: #007ac1;
     text-align: center;
@@ -219,8 +219,8 @@ nav li a:hover {
 /*The fonts and their media queries*/
 h1 {
     font-family: 'Francois One', sans-serif;
+    font-weight: 400;
     color: #000;
-    font-weight: 700;
     margin: 0;
     padding: 0;
 }
