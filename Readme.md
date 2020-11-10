@@ -17,7 +17,7 @@ This is a static component. All you need is a web browser.
 
 ## Reflection
 
-I wanted to build a reusable header and navigation that would adapt to different screen sizes. On smaller and medium-sized screens, the navigation would display as a "hamburger." On larger screens, the navigation would display horizontally across the page. It is a routine task, but still requires effort and planning. The more challenging aspect was building to accommodate user behavior: ensuring the elements would react and display properly if users manually made their browser windows larger or smaller.
+I wanted to build a reusable header and navigation that would adapt to different screen sizes. On smaller and medium-sized screens, the navigation would display as a "hamburger." On larger screens, the navigation would display horizontally across the page. It is a routine task, but still requires effort and planning. The more challenging aspect was building to ensure that elements display properly if users resized their browser windows.
 
 ## Acknowledgments
 
