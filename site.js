@@ -8,6 +8,7 @@ window.addEventListener("load", function () {
 
     mechanics.highlight();
     mechanics.menu();
+    mechanics.resize();
 });
 
 //The mechanics variable (let)
@@ -43,10 +44,24 @@ mechanics = {
             //If text is "menu", click -> display menu; make text "close."
             //If text is "close", click -> hide menu; make text "menu."
             if (menuText === "Menu") {
-                document.getElementById("menu-list").style.display = "block";
+                document.getElementById("menu-list").style.display = "flex";
                 document.getElementById("menu").textContent = "Close";
             } else if (menuText === "Close") {
                 document.getElementById("menu-list").style.display = "none";
+                document.getElementById("menu").textContent = "Menu";
+            }
+        });
+    },
+
+    //Keeps "menu" working if user resizes browser +/- 600px breakpoint.
+    resize: function () {
+        const menuList = document.getElementById("menu-list");
+        window.addEventListener("resize", function () {
+
+            const viewport = window.innerWidth;
+
+            if (viewport >= 600) {
+                menuList.style.removeProperty("display");
                 document.getElementById("menu").textContent = "Menu";
             }
         });
