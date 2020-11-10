@@ -1,27 +1,34 @@
-# Header and Navigation
+## Project Name & Summary
+![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/header-navigation?style=flat-square)
 
-A responsive header and single-level navigation bar for websites. On larger screens, the navigation bar has a horizontal orientation with items cascading left to right; positioned by flexbox. On smaller screens, the horizontal navigation is replaced by a button. Click the button: a navigation bar with a vertical orientation (items cascading top to bottom, no flexbox) appears. In both environments, the current page is highlighted using a JavaScript function. The navigation has minimal styling. You may want to add more for a production model. All functionality is accomplished with "vanilla" JavaScript.
+Header and Navigation
 
-## Authors
+A responsive and reusable header and single-level navigation bar for websites. 
 
-* **Sean Kelliher** - [seankelliher](https://github.com/seankelliher)
+## Project Status
 
-## Deployment
+This project is complete.
 
-All you need is a web browser. Code works in a local or remote environment.
+## Project Screen Shot(s)
 
-## Built With
+![screen shot of project](/screenshots/header-navigation-screenshot1.jpg)
 
-* JavaScript
-* CSS
-* HTML
+![screen shot of project](/screenshots/header-navigation-screenshot2.jpg)
 
-## License
+![screen shot of project](/screenshots/header-navigation-screenshot3.jpg)
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Installation and Setup Instructions
+
+This is a static component. All you need is a web browser.
+
+## Reflection
+
+I wanted to build a reusable header and navigation that would adapt to different screen sizes. On smaller and medium-sized screens, the navigation would display as a "hamburger." On larger screens, the navigation would display horizontally across the page. It is a routine task, but still requires effort and planning. The more challenging aspect was building to accommodate user behavior: ensuring the elements would react and display properly if users manually made their browser windows larger or smaller.
 
 ## Acknowledgments
 
-* Readme file based on [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by Billie Thompson.
-* Design guidance from Google's [Material Design](https://material.io/design).
+* Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
+* Design guidance from Google's [Material Design](https://material.io/design) and [Adobe Color](https://color.adobe.com/trends).
 * Fonts from [Google Fonts](https://fonts.google.com).
+* Shields from [Shields](https://shields.io)
