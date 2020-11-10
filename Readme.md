@@ -3,10 +3,6 @@
 
 A responsive and reusable header and single-level navigation bar for websites. 
 
-## Project Status
-
-This project is complete.
-
 ## Project Screen Shots
 
 ![screen shot of project](/screenshots/header-navigation-screenshot1.jpg)
@@ -14,7 +10,6 @@ This project is complete.
 ![screen shot of project](/screenshots/header-navigation-screenshot2.jpg)
 
 ![screen shot of project](/screenshots/header-navigation-screenshot3.jpg)
-
 
 ## Installation and Setup Instructions
 
