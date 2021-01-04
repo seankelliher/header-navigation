@@ -13,7 +13,7 @@ A responsive and reusable header and single-level navigation bar for websites.
 
 ## Installation and Setup Instructions
 
-This is a static component. All you need is a web browser.
+This is a static component. All you need is a web browser. However, component uses ES6 modules. Developing locally may require disabling your browser's local file restrictions.
 
 ## Reflection
 
@@ -22,6 +22,7 @@ I wanted to build a reusable header and navigation that would adapt to different
 ## Acknowledgments
 
 * Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
+* JavaScript guidance from [JSLint](http://jslint.com).
 * Design guidance from Google's [Material Design](https://material.io/design) and [Adobe Color](https://color.adobe.com/trends).
 * Fonts from [Google Fonts](https://fonts.google.com).
 * Shields from [Shields](https://shields.io).
