@@ -65,7 +65,7 @@ nav {
     line-height: 2.2;
     font-weight: 700;
     color: #FFF;
-    background: #001F99; /*dark magenta*/
+    background: #616161; /*grey 700*/
     text-align: center;
     cursor: pointer;
 }
@@ -136,7 +136,7 @@ ul {
 }
 
 .selected {
-    color: #1976D2; /*blue 700*/
+    color: #C41C00; /*deep orange 500 dark*/
     text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ li {
 }
 
 li a {
-    color: #000;
+    color: #616161; /*grey 700*/
     text-decoration: none;
 }
 
